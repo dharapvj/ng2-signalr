@@ -1,9 +1,9 @@
 export default {
     entry: './dist/index.js',
-    dest: './dist/bundles/ng2-signalr.umd.js',
+    dest: './dist/bundles/ngx-signalr.umd.js',
     format: 'umd',
     // Global namespace.
-    moduleName: 'ng.ng2-signalr',
+    moduleName: 'ng.ngx-signalr',
     // External libraries.
     external: [
         '@angular/core',

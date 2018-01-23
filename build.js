@@ -46,7 +46,7 @@ echo(chalk.green('Bundling completed'));
 /* Minimizes umd bundle */
 echo('Start minification');
 
-exec('uglifyjs ./dist/bundles/ng2-signalr.umd.js -o ./dist/bundles/ng2-signalr.umd.min.js');
+exec('uglifyjs ./dist/bundles/ngx-signalr.umd.js -o ./dist/bundles/ngx-signalr.umd.min.js');
 
 echo(chalk.green('Minification completed'));
 

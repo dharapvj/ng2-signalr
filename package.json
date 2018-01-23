@@ -1,14 +1,14 @@
 {
-  "name": "ng2-signalr",
-  "version": "2.1.1",
-  "description": "angular2 signalr library",
-  "main": "bundles/ng2-signalr.umd.js",
+  "name": "@dharapvj/ngx-signalr",
+  "version": "3.0.0",
+  "description": "angular2+ signalr library",
+  "main": "bundles/ngx-signalr.umd.js",
   "module": "index.js",
   "scripts": {
     "build": "node build.js",
     "test": "karma start --single-run --no-auto-watch",
     "pack-lib": "npm pack ./dist",
-    "publish-lib": "npm publish ./dist",
+    "publish-lib": "npm publish --access public ./dist",
     "compodoc": "compodoc -p tsconfig.json",
     "compodoc-serve": "compodoc -s",
     "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
@@ -18,16 +18,18 @@
   "author": "Hannes Neukermans",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HNeukermans/ng2-signalR.git"
+    "url": "git+https://github.com/dharapvj/ngx-signalR.git"
   },
   "bugs": {
-    "url": "https://github.com/robisim74/ng2-signalr/issues"
+    "url": "https://github.com/dharapvj/ngx-signalr/issues"
   },
-  "homepage": "https://github.com/HNeukermans/ng2-signalR",
+  "homepage": "https://github.com/dharapvj/ngx-signalR",
   "keywords": [
     "signalR",
     "typescript",
-    "angular 2"
+    "angular 2",
+    "angular 4",
+    "angular 5"
   ],
   "license": "MIT",
   "peerDependencies": {
