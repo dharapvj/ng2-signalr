@@ -6,6 +6,8 @@
 # ng2-signalr
 An angular typescript library that allows you to connect to Asp.Net SignalR
 
+## This fork is made so that we can publish a angular 5 compatible library on npm. I would delete this fork once the main library updates.
+
 ## Features:
  1. 100% typescript
  2. use rxjs to observe server events 
